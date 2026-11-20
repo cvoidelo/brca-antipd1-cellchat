@@ -29,4 +29,4 @@ To run the scripts, place the following files inside a `data/` directory in the 
 Scripts developed and maintained by Clayton Voidelo.
 
 If you use these scripts in your research, please cite the associated study:
-> *Subtype-Specific Signals: Cell-Cell Communication Communication Landscapes in Breast Cancer Under Anti-PD-1 Therapy* (manuscript under revision).
+> *Subtype-Specific Signals: Cell-Cell Communication Landscapes in Breast Cancer Under Anti-PD-1 Therapy* (manuscript under revision).
