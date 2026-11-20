@@ -23,3 +23,10 @@ To run the scripts, place the following files inside a `data/` directory in the 
 - CellChat (v2.2.0)
 - NMF (v0.28)
 - ComplexHeatmap, ggplot2, dplyr, tidyr, patchwork, rstatix, ggpubr
+
+## Author and Citation
+
+Scripts developed and maintained by Clayton Voidelo.
+
+If you use these scripts in your research, please cite the associated study:
+> *Subtype-Specific Signals: Cell-Cell Communication Communication Landscapes in Breast Cancer Under Anti-PD-1 Therapy* (manuscript under revision).
