@@ -18,7 +18,7 @@ To run the scripts, place the following files inside a `data/` directory in the 
 
 ## Software Requirements
 
-- R (v4.4.0)
+- R (version ≥ v4.4.0)
 - Seurat (v5.4.0)
 - CellChat (v2.2.0)
 - NMF (v0.28)
