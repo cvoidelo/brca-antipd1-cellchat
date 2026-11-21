@@ -140,7 +140,7 @@ violin_plot <- ggplot(long_data, aes(x = timepoint, y = expression)) +
 
 ggsave(paste0("Fig8_SingleCell_Violin_", tumor_subtype, ".pdf"), violin_plot, width = 12, height = 10, units = "in", dpi = 300)
 
-# Patient-level paired trajectories (descriptive)
+# Patient-level paired trajectories (Supp.Fig. 13)
 patient_long <- long_data %>%
   group_by(gene, patient_id, expansion, timepoint) %>%
   summarise(mean_expr = mean(expression, na.rm = TRUE), .groups = "drop")
