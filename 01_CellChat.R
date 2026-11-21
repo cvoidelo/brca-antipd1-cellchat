@@ -7,8 +7,8 @@
 # https://htmlpreview.github.io/?https://github.com/jinworks/CellChat/blob/master/tutorial/CellChat-vignette.html
 
 # Run this script for each of the four on-treatment subgroups by setting BC_TYPE and EXPANSION:
-#   1) ER+/E   (BC_TYPE = "ER",   EXPANSION = "E")
-#   2) ER+/NE  (BC_TYPE = "ER",   EXPANSION = "NE")
+#   1) ER+/E   (BC_TYPE = "ER+",   EXPANSION = "E")
+#   2) ER+/NE  (BC_TYPE = "ER+",   EXPANSION = "NE")
 #   3) TNBC/E  (BC_TYPE = "TNBC", EXPANSION = "E")
 #   4) TNBC/NE (BC_TYPE = "TNBC", EXPANSION = "NE")
 
@@ -23,7 +23,7 @@ library(ggalluvial)
 options(stringsAsFactors = FALSE)
 
 # Subgroup parameters
-BC_TYPE   <- "TNBC"  # "ER" or "TNBC"
+BC_TYPE   <- "TNBC"  # "ER+" or "TNBC"
 EXPANSION <- "NE"    # "E" or "NE"
 SUB_DIR   <- ifelse(BC_TYPE == "ER", "ER+", "TNBC")
 
